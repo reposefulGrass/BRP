@@ -58,7 +58,7 @@ struct ScanCell {
 mod tests {
     #[test]
     fn documentation_example() {
-        let line = "  \"  11 (BC_2, IO_AK14, output3, X, 10, 1, pull0),\" & -- PAD445";
+        let line = "  \"  23 (BC_1, IO_AK01, output3, X, 15, 0, pull3),\" & -- PAD762";
         let scan_cell = ScanCell::parseLine(line);
     }
 }
